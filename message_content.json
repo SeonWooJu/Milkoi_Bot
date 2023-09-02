@@ -1,0 +1,106 @@
+{
+  "help": {
+    ">도움말": {
+      "title": ":grey_question:명령어 도움말:grey_question:",
+      "content": ":fork_and_knife:**`>메뉴추천 <장르 선택>`**: 식사 메뉴를 추천합니다.\n`<장르 선택>`: 전체, 한국, 중국, 일본, 서양, 아시아 중 선택하실 수 있습니다.\n(공백으로 두면 전체적으로 검색됩니다.)\n\n:white_sun_small_cloud:**`>날씨 <도시 이름>`**: 입력한 도시의 날씨 정보를 출력해 줍니다.\n`<도시 이름>`: 검색하실 도시의 이름을 입력하시면 됩니다.\n(공백으로 두면 검색이 불가능합니다.)\n\n:computer:**`>개발자`**: 봇에 대한 문의 정보와 간단한 개발자 정보를 제공합니다."
+    },
+    ">halp": {
+      "title": ":grey_question:Command Help:grey_question:",
+      "content": ":fork_and_knife:**`>MenuRec <select a genre>`**: I recommend a meal menu.\n`<Select a genre>`: You can choose from All, Korea, China, Japan, West, Asia.\n(If left blank, it will be scanned globally.)\n\n:white_sun_small_cloud:**`>weather <City name>`**: Prints weather information for the entered city.\n`<City name>`: You can enter the name of the city you want to search for.\n(If left blank, the search is not possible.)\n\n:computer:**`>developer`**: Provides inquiry information and brief developer information for the bot."
+    },
+    ">ヘルプ": {
+      "title": ":grey_question:コマンドヘルプ:grey_question:",
+      "content": ":fork_and_knife:**`>おすすめ　<ジャンル選択>`**:　食事メニューをおすすめします。\n`<ジャンル選択>`:　全体、韓国、中国、日本、西洋、アジアからお選びいただけます。\n(空白のままにしておくと全体的に検索されます。)\n\n:white_sun_small_cloud:**`>天気 <都市名>`**: 入力した都市の天気情報を出力してくれます。\n`<都市名>`: 検索する都市の名前を入力してください。\n(空白にすると検索できません。)\n\n:computer:**`>開発者`**: ボットに関するお問い合わせ情報と簡単な開発者情報を提供します。"
+    }
+  },
+  "menuRec": {
+    "전체": "all",
+    "한국": "ko",
+    "중국": "ch",
+    "일본": "jp",
+    "서양": "ws",
+    "아시아": "etc",
+    "all": "all",
+    "korea": "ko",
+    "china": "ch",
+    "japan": "jp",
+    "west": "ws",
+    "asia": "etc",
+    "全体": "all",
+    "韓国": "ko",
+    "中国": "ch",
+    "日本": "jp",
+    "西洋": "ws",
+    "アジア": "etc"
+  },
+  "developer": {
+    ">개발자": {
+      "title": ":computer: 개발자: Python",
+      "content": "봇에 추가하고 싶은 기능이나 버그가 있으면 Twitter `@_100_su_`로 문의하십시오."
+    },
+    ">developer": {
+      "title": ":computer: developer: Python",
+      "content": "If you have any features or bugs you want to add to the bot, please contact Twitter `@_100_su_`."
+    },
+    ">開発者": {
+      "title": ":computer: 開発者: Python",
+      "content": "ボットに追加したい機能やバグがある場合は、Twitter `@_100_su_` にお問い合わせください。"
+    }
+  },
+  "weather": {
+    "kr": {
+      "title": " 날씨",
+      "description": {
+        "temp": "현재 온도 ",
+        "feels_like": "체감 온도 "
+      },
+      "field_value": {
+        "value1": "최저 온도:",
+        "value2": "최고 온도:",
+        "value3": "가시 거리:",
+        "value4": "습도:",
+        "value5": "풍속:"
+      },
+      "error": {
+        "city_none": "도시 이름을 입력해 주시기 바랍니다.\n예) `>날씨 <도시 이름>`",
+        "coord_none": "도시 이름이 검색되지 않습니다."
+      }
+    },
+    "en": {
+      "title": " Weather",
+      "description": {
+        "temp": "Current temp ",
+        "feels_like": "Feels like "
+      },
+      "field_value": {
+        "value1": "Min temp:",
+        "value2": "Max temp:",
+        "value3": "Visibility:",
+        "value4": "Humidity:",
+        "value5": "Wind speed:"
+      },
+      "error": {
+        "city_none": "Please enter a city name.\nex) `>weather <City name>`",
+        "coord_none": "The city name is not retrieved."
+      }
+    },
+    "ja": {
+      "title": " 天気",
+      "description": {
+        "temp": "現在の温度 ",
+        "feels_like": "体感温度 "
+      },
+      "field_value": {
+        "value1": "最低温度:",
+        "value2": "最高温度:",
+        "value3": "可視距離:",
+        "value4": "湿度:",
+        "value5": "風俗:"
+      },
+      "error": {
+        "city_none": "都市名を入力してください。\n予示) `>天気 <都市名>`",
+        "coord_none": "都市名が検索されません。"
+      }
+    }
+  }
+}
